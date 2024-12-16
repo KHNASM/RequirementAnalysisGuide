@@ -99,6 +99,70 @@ Here’s an example of a completed Requirements Conflict Table:
 - Use tools like spreadsheets, project management software, or Markdown tables to maintain your Requirements Conflict Table.
 
 
+# Understanding VP (Variation Point) and Vs (Variants) in Variability Models
+
+Variability models often include **VP (Variation Points)** and **Vs (Variants)** to represent flexible and customizable aspects of a system. This guide explains these terms with examples.
+
+---
+
+## **1. What is a VP (Variation Point)?**
+
+A **Variation Point (VP)** is a specific location or decision point in a system where variability is introduced. It identifies where the system can be configured or customized to meet different needs.
+
+### Example:
+In a **Smart Home Automation System** (SHAS):  
+- **VP:** *Lighting Control Type*  
+  - This is the decision point where the type of lighting control is determined.
+
+---
+
+## **2. What are Vs (Variants)?**
+
+**Variants (Vs)** are the possible options or alternatives available at a variation point. Each variant represents a specific implementation, feature, or configuration choice.
+
+### Example:
+For the **Lighting Control Type** VP, the possible **Variants (Vs)** are:  
+1. On/Off Scheduling  
+2. Dimming  
+3. RGB Color Control  
+
+---
+
+## **3. How VP and Vs Work Together**
+
+A **variation point** is like a "question" in the model, while the **variants** are the possible "answers."  
+### Example Relationship:
+- **VP (Question):** What type of lighting control should the system offer?  
+- **Vs (Answers):**  
+  1. Basic on/off scheduling (Mandatory)  
+  2. Advanced dimming (Optional)  
+  3. RGB color customization (Optional)  
+
+---
+
+## **4. Relationships Between VP and Vs**
+
+Variability relationships define how variants are selected at a variation point. Common types include:  
+
+### **Single-Select (Alternative):**
+- Only one variant is selected.  
+- **Example:** Either *Cloud Storage* or *Local Storage* for security camera footage.
+
+### **Multi-Select (Optional):**
+- Multiple variants can be selected.  
+- **Example:** A thermostat may support both *Basic Scheduling* and *Advanced Climate Modes*.  
+
+### **Mandatory:**
+- A variant must always be included.  
+- **Example:** *On/Off Scheduling* is a mandatory variant in the lighting system.
+
+---
+
+## **5. Example in Variability Models**
+
+Here’s an example for a **Smart Home Automation System (SHAS):**
+
+
 
 # Step-by-Step Guide to Creating a Variability Model for a Large System
 
