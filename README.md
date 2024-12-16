@@ -913,4 +913,31 @@ Best Practices:
 4. Examine all leaf goals for potential stories
 5. Clarify goals requiring only manual activities
 
+2. **Orthogonal Variability Model (OVM)**
 
+Variation Point Types:
+- Mandatory (must be selected)
+- Optional (can be selected)
+- External (visible to stakeholders)
+- Internal (visible to developers)
+
+Dependencies:
+- Mandatory variant
+- Optional variant
+- Alternative variant
+- Constraints (require/exclude)
+
+### OVM Examples
+Components:
+- Variation points
+- Variants
+- Dependencies
+- Requirements mappings
+- Constraint relationships
+
+Best Practices:
+1. Document common requirements
+2. Map requirements to variants
+3. Show dependencies clearly
+4. Include constraints
+5. Validate completeness
