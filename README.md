@@ -941,3 +941,131 @@ Best Practices:
 3. Show dependencies clearly
 4. Include constraints
 5. Validate completeness
+
+
+# Model-Driven and Data-Driven Requirements Engineering Study Guide
+
+## Table of Contents
+- [1. Model-Driven RE](#1-model-driven-re)
+- [2. Data-Driven RE](#2-data-driven-re)
+- [3. Digital Data Sources](#3-digital-data-sources)
+- [4. Processing Requirements from Data](#4-processing-requirements-from-data)
+
+## 1. Model-Driven RE
+
+### Benefits of Modeling
+1. **Improved Understanding**
+  - Easier comprehension of complex contexts
+  - Better communication between teams
+  - Abstraction of irrelevant details
+  
+2. **Enhanced Focus**
+  - Single perspective views (data, functions)
+  - Additional properties and classifications
+  - Visual representation
+
+3. **Practical Advantages**
+  - Automated validation
+  - Easier translation to code
+  - Bridge between text and system
+
+### Models in RE
+
+1. **Modeling Languages**
+  - Conceptual languages
+  - Syntax and semantics
+  - Notations and symbols
+  
+2. **Common Languages**
+  - UML (Use Cases, Class Diagrams)
+  - ER Diagrams
+  - BPMN
+  - Goal-oriented languages
+
+3. **Usage Guidelines**
+  - More formal in later RE phases
+  - Natural language in early phases
+  - Need defined procedures
+
+## 2. Data-Driven RE
+
+### Core Concepts
+
+1. **Definition**
+  - Requirements from digital sources
+  - Dynamic and implicit sources
+  - Big data utilization
+  
+2. **Advantages**
+  - Wider scope of requirements
+  - Increased automation
+  - Continuous elicitation
+  - Support for evolution
+
+3. **Challenges**
+  - Non-explicit requirements
+  - Data transformation needs
+  - Varying data structures
+  - Integration complexity
+
+## 3. Digital Data Sources
+
+### Types of Sources
+
+1. **Human-Sourced Data**
+  - Online reviews
+  - Microblogs
+  - Forums
+  - Emails
+
+2. **Machine-Generated Data**
+  - Sensor data
+  - IoT devices
+  - System logs
+  - Usage metrics
+
+### Data Characteristics
+- Different formality levels
+- Varying grammar/structure
+- Interactive elements
+- Multiple languages
+- Rating systems
+- Policy compliance
+
+## 4. Processing Requirements from Data
+
+### Process Steps
+
+1. **Data Segmentation**
+  - Divide source data
+  - Apply appropriate processing
+  - Consider data distribution
+
+2. **Analysis Methods**
+  - Classification
+  - Named Entity Recognition (NER)
+  - Sentiment analysis
+
+3. **Categories**
+  - Feature requests
+  - Bug reports
+  - Functional requirements
+  - Non-functional requirements
+
+### Best Practices
+
+1. **Data Collection**
+  - Consider scale
+  - Multiple sources
+  - Automated processing
+
+2. **Analysis**
+  - Filter segments
+  - Extract entities
+  - Map to user stories
+  - Consider priorities
+
+3. **Validation**
+  - Check conflicts
+  - Verify feasibility
+  - Align with organization goals
