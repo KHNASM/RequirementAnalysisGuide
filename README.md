@@ -614,3 +614,169 @@ Benefits:
 4. Evaluate professional standards
 5. Document decisions and rationale
 ```
+# Requirements Management & Agile Development Study Guide
+
+## Table of Contents
+
+- [1. Requirements Management](#1-requirements-management)
+- [2. Traceability](#2-traceability)
+- [3. Prioritization](#3-prioritization)
+- [4. Scrum Framework](#4-scrum-framework)
+- [5. SAFe Framework](#5-safe-framework)
+
+## 1. Requirements Management
+
+### Change Management Process
+Requirements change management ensures changes are properly evaluated and implemented. The process includes:
+
+1. **Classification** - Categorize incoming changes as:
+   - Exceptional ("hot fixes")
+   - Corrective (fixing errors)
+   - Adaptive (evolution)
+
+2. **Impact Analysis**
+   - Estimate implementation effort
+   - Identify affected requirements
+   - Assess impact on architecture/design
+
+3. **Evaluation & Decision**
+   - Analyze costs vs benefits
+   - Accept or reject change
+
+4. **Prioritization**
+   - If accepted, prioritize against other requests
+   - Schedule for implementation
+
+5. **Implementation & Monitoring** 
+   - Track integration progress
+   - Keep stakeholders informed
+
+### Common Change Triggers
+- Evolution of stakeholder needs
+- New technologies emerging
+- Changes in laws/standards  
+- Updated organizational policies
+- Changes in system usage patterns
+
+## 2. Traceability
+
+### Types of Traceability
+
+1. **Pre-traceability**
+   - Links to predecessor artifacts
+   - Source documentation
+   - Original requirements
+
+2. **Post-traceability** 
+   - Links to successor artifacts
+   - Design elements
+   - Implementation code
+   - Test cases
+
+3. **Inter-requirements**
+   - Links between requirements
+   - Dependencies
+   - Relationships
+   - Conflicts
+
+### Benefits
+- Impact analysis capability
+- Requirements validation
+- Change management support
+- Project tracking
+- Compliance verification
+
+## 3. Prioritization 
+
+### Key Criteria
+- Business value/importance
+- Implementation cost
+- Development duration  
+- Technical risk
+- Dependencies
+- User value
+- Volatility
+
+### Methods
+
+#### MoSCoW Method
+Categorizes requirements as:
+- **Must Have**: Essential features
+- **Should Have**: Important but not vital
+- **Could Have**: Desired but not critical  
+- **Won't Have**: Not in current scope
+
+#### Cost of Delay
+- Quantifies delay impact
+- Prioritizes high-value, low-effort items
+- Uses WSJF (Weighted Shortest Job First)
+
+## 4. Scrum Framework
+
+### Core Elements
+
+1. **Roles**
+   - Product Owner
+   - Scrum Master  
+   - Development Team
+
+2. **Artifacts**
+   - Product Backlog
+   - Sprint Backlog
+   - Increment
+
+3. **Events** 
+   - Sprint Planning
+   - Daily Scrum
+   - Sprint Review
+   - Sprint Retrospective
+
+### Product Backlog
+- Prioritized feature list
+- Continuously refined
+- More detail at top
+- Less detail at bottom
+- Dynamic and evolving
+
+## 5. SAFe Framework
+
+### Overview
+- Enterprise-scale agile framework
+- Coordinates multiple teams
+- Integrates lean principles
+- Supports large systems
+
+### Requirements Model
+Hierarchical structure:
+
+1. **Epics**
+   - Large initiatives
+   - Business/architecural changes
+   
+2. **Capabilities**
+   - Groups of related features
+   - Major system functions
+
+3. **Features**
+   - User-valuable functionality
+   - Deliverable increments
+
+4. **Stories**
+   - Implementation units
+   - Sprint-level work items
+
+5. **NFRs**
+   - Performance requirements
+   - Quality attributes
+   - System constraints
+
+### Best Practices
+- Use clear definitions
+- Maintain traceability
+- Regular backlog refinement
+- Continuous prioritization
+- Stakeholder collaboration
+
+---
+
+*Note: This guide covers key concepts from lectures 6-7 on Requirements Management, Scrum, and SAFe. Review complementary course materials for complete understanding.*
