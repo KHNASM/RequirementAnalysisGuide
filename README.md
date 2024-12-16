@@ -1069,3 +1069,75 @@ Best Practices:
   - Check conflicts
   - Verify feasibility
   - Align with organization goals
+
+
+
+###EXERCICE EXAMPLE
+
+1. Common Requirements (Must have):
+   - System must support shopping cart view functionality
+   - System must implement search by name
+   - System must support secure payment
+   - System must support at least one payment method
+
+2. Variable Requirements:
+
+   a) Cart View Features:
+   - R1.1: System shall provide member view with rewards functionality
+   - R1.2: System shall provide public view for non-members
+   
+   b) Search Functionality:
+   - R2.1: System must implement search by name (mandatory)
+   - R2.2: System may implement search by number (optional)
+   - R2.3: System may implement category search (optional)
+   - R2.4: System may implement price-based search (optional)
+   - R2.5: System may implement similarity search (optional)
+   - R2.6: System may implement search tips (optional)
+   
+   c) Member Rewards:
+   - R3.1: System shall support exchange rewards for members
+   - R3.2: System shall support collect rewards for members
+   - R3.3: System may provide personal discounts (optional)
+   
+   d) Payment Security:
+   - R4.1: System shall implement either https, SSL, or SET security
+   
+   e) Payment Methods:
+   - R5.1: System shall support at least one of: credit card, cash, e-cash, or transaction payment methods
+
+###Implementation Guidlines
+
+1. Architecture Design:
+   - Use modular design to support feature variability
+   - Implement plug-in architecture for optional features
+   - Use dependency injection for payment methods
+
+2. Security Implementation:
+   - Implement secure payment as a separate module
+   - Allow configuration of security protocol
+   - Ensure all payment methods use selected security protocol
+
+3. Search Implementation:
+   - Create base search interface with mandatory name search
+   - Implement additional search methods as extensions
+   - Use factory pattern for search feature creation
+
+4. Member Management:
+   - Implement rewards system as separate module
+   - Use strategy pattern for different reward types
+   - Implement authentication system for member/public views
+
+5. Testing Guidelines:
+   - Test all possible feature combinations
+   - Validate security implementations
+   - Test member/public view transitions
+   - Verify reward calculations
+   - Test payment method integrations
+
+Variability Dependencies:
+
+
+The e-cash payment method requires SSL security (<<requires>> relationship)
+Member rewards features require member view implementation
+Search features should be independent of each other
+Payment methods should be independently selectable
