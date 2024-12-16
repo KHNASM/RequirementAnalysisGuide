@@ -779,4 +779,138 @@ Hierarchical structure:
 
 ---
 
-*Note: This guide covers key concepts from lectures 6-7 on Requirements Management, Scrum, and SAFe. Review complementary course materials for complete understanding.*
+# Goal-Oriented Requirements Engineering (GORE) Study Guide
+
+## Table of Contents
+- [1. Introduction to GORE](#1-introduction-to-gore)
+- [2. Motivation for GORE](#2-motivation-for-gore)
+- [3. Goals](#3-goals)
+- [4. Goal Modeling](#4-goal-modeling)
+- [5. Goals and Requirements](#5-goals-and-requirements)
+
+## 1. Introduction to GORE
+
+Goal-Oriented Requirements Engineering focuses on using goals to drive requirements elicitation, documentation, negotiation, validation, and management.
+
+### Core Concept
+Goals capture various objectives that:
+- An organization wants to achieve
+- A system under consideration should fulfill
+- Express different levels of abstraction
+
+## 2. Motivation for GORE
+
+### Key Benefits
+1. **Requirements Elicitation**
+   - Better understanding of the system
+   - Goals provide context and rationale
+
+2. **Requirements Justification**
+   - Goals document why requirements exist
+   - Links high-level objectives to system requirements
+
+3. **Stability Analysis**
+   - Goals tend to be more stable than requirements
+   - Higher-level goals are most stable
+   - Requirements represent specific ways to achieve goals
+
+4. **Alternative Analysis**
+   - Goals help identify different solutions
+   - Support systematic evaluation of alternatives
+
+5. **Conflict Management**
+   - Goals help detect conflicts between requirements
+   - Provide framework for conflict resolution
+
+6. **Completeness Assessment**
+   - Goals provide criteria for specification completeness
+   - Requirements are complete if they achieve all goals
+
+## 3. Goals
+
+### Goal Types
+
+1. **By Abstraction Level**
+   - High-level strategic goals
+   - Mid-level tactical goals
+   - Low-level operational goals
+
+2. **By Nature (i* approach)**
+   - Hard goals (clear-cut satisfaction)
+   - Soft goals (satisfaction cannot be clearly determined)
+
+### Goal Documentation
+
+Best Practices:
+1. Start with "the goal is..."
+2. Express as: desired condition + resource + features
+3. Follow SMART criteria:
+   - Specific
+   - Measurable
+   - Accepted
+   - Realistic
+   - Time-framed
+
+## 4. Goal Modeling
+
+### Goal Decomposition Types
+
+1. **AND Decomposition**
+   - All sub-goals must be satisfied
+   - Sufficient for parent goal satisfaction
+
+2. **OR Decomposition**
+   - One sub-goal satisfaction is sufficient
+   - Represents alternatives
+
+3. **AND/OR Decomposition**
+   - Combination of both
+   - Used for high/middle level goals
+   - Avoid in detailed RE activities
+
+### Dependencies
+
+1. **Supports/Motivates**
+   - Shows positive influence
+   - Vertical relationship for refinement
+
+2. **Hinders**
+   - Shows negative influence
+   - Opposite of supports
+
+3. **Conflicts**
+   - Shows mutual exclusion
+   - Used for conflicting goals
+
+## 5. Goals and Requirements
+
+### Hierarchy Levels
+
+1. **Strategic Level**
+   - Company vision
+   - High-level business goals
+   - 3-5 decomposition levels
+
+2. **Operational Level**
+   - Unit-specific goals
+   - Business function goals
+   - 3-6 decomposition levels
+
+3. **Detailed Level**
+   - Project/system specific goals
+   - Information system requirements
+   - 3-5 decomposition levels
+
+### GORE in Agile RE
+
+Best Practices:
+1. Focus on operational/detailed goals
+2. Aim for leaf goals that specify system needs
+3. Transform leaf goals into user stories:
+   - One goal → one story
+   - One goal → multiple stories
+   - One goal → epic (needs breakdown)
+4. Examine all leaf goals for potential stories
+5. Clarify goals requiring only manual activities
+
+
