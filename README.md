@@ -189,7 +189,7 @@ Types:
 - Becomes final system
 
 ### Validation Checklist
-```
+
 For each requirement, verify:
 
 1. Completeness
@@ -222,27 +222,27 @@ For each requirement, verify:
 
 ### Step 1: Identify Conflict
 Example:
-```
+
 Stakeholder A: "System must require 2FA for all actions"
 Stakeholder B: "System must allow quick one-click purchases"
-```
+
 
 ### Step 2: Analyze Type
-```
+
 Type: Interest Conflict
 Reason: Security vs Usability
 Impact: User experience and system security
-```
+
 
 ### Step 3: Generate Solutions
-```
+
 Option 1: Tiered security based on transaction value
 Option 2: Remember device for 30 days
 Option 3: Biometric authentication for quick access
-```
+
 
 ### Step 4: Evaluate and Select
-```
+
 Selected: Option 1
 Rationale: 
 - Low-value transactions: One-click
@@ -264,10 +264,10 @@ Answer approach:
 3. Suggest improvements:
    "The system shall respond to user input within 2 seconds"
    "Users shall complete common tasks in under 3 clicks"
-```
+
 
 2. User Story Writing
-```
+
 Question: "Write a user story for a password reset feature"
 
 Good Answer:
@@ -280,10 +280,10 @@ Acceptance Criteria:
 2. New password must meet security requirements
 3. User receives confirmation email
 4. Previous password cannot be reused"
-```
+
 
 3. Conflict Resolution
-```
+
 Question: "How would you resolve conflicting requirements between security and usability?"
 
 Approach:
@@ -291,7 +291,7 @@ Approach:
 2. Analyze impact
 3. Consider compromises
 4. Propose solution with rationale
-```
+
 
 ### Key Terms to Master
 
@@ -319,30 +319,30 @@ Approach:
 ### Red Flags in Requirements
 
 1. Ambiguous Language
-```
+
 Avoid:
 - "etc."
 - "and/or"
 - "as appropriate"
 - "if possible"
 - "as required"
-```
+
 
 2. Unmeasurable Terms
-```
+
 Problematic:
 - "user-friendly"
 - "fast"
 - "secure"
 - "efficient"
 - "flexible"
-```
+
 
 3. Implementation Details
-```
+
 Wrong: "System shall use MySQL database"
 Right: "System shall store customer data persistently"
-```
+
 
 ### Final Checklist for Exam Preparation
 
@@ -392,13 +392,13 @@ Remember:
 - Views conflicts as opportunities for improvement
 
 #### Real-World Example
-```
+
 Scenario: School Grade Viewing System
 Stakeholder A (Administrator): "Teachers should see all student grades"
 Stakeholder B (Privacy Advocate): "Teachers should only see grades for their subjects"
 
 This represents a typical requirements conflict requiring negotiation.
-```
+
 
 ### Conflict Management Process
 
@@ -414,29 +414,29 @@ Conflicts can emerge during various RE activities:
 1. Data Conflicts
 - Caused by: Information gaps or misinterpretation
 - Example:
-```
+
 S_A: "Enable students to change lectures"
 S_B: "Should it be 'read' instead of 'change'?"
 Root cause: Unclear terminology
-```
+
 
 2. Interest Conflicts
 - Caused by: Different stakeholder goals
 - Example:
-```
+
 S_A: "Animated product pictures"
 S_B: "Simple visualization to minimize costs"
 Root cause: Feature vs. Cost optimization
-```
+
 
 3. Value Conflicts
 - Caused by: Different evaluation criteria
 - Example:
-```
+
 S_A: "Support OGG format"
 S_B: "OGG format unnecessary"
 Root cause: Different priority assessment
-```
+
 
 4. Overlap Conflicts
 - Caused by: Duplicate requirements in different locations
@@ -483,14 +483,14 @@ Root cause: Different priority assessment
 
 #### Documentation Elements
 1. Solution Documentation
-```
+
 Example: "Requirement_X of Stakeholder_A removed due to conflict with Requirement_Y"
-```
+
 
 2. Rationale Documentation
-```
+
 Example: "Requirement_X not vital for functionality, Requirement_Y essential"
-```
+
 
 3. Revision Documentation
 - Update existing requirements
@@ -525,27 +525,27 @@ Example: "Requirement_X not vital for functionality, Requirement_Y essential"
 - Action-oriented outcomes
 
 Process:
-```
+
 1. Prepare materials
 2. Individual review
 3. Group discussion
 4. Document issues
 5. Agree on actions
 6. Follow up
-```
+
 
 #### 2. Commenting
 - Peer review approach
 - Expert opinion gathering
 - Quality assessment
-```
+
 Process:
 1. Share specifications
 2. Collect expert feedback
 3. Mark issues
 4. Provide explanations
 5. Return for revision
-```
+
 
 #### 3. Walkthroughs
 - Lightweight inspection
@@ -556,36 +556,36 @@ Process:
 
 #### 1. Checklists
 Example Validation Checklist:
-```
+
 □ Requirements are complete
 □ Format is correct
 □ No ambiguity exists
 □ Conflicts are resolved
 □ Traceability is maintained
-```
+
 
 #### 2. Perspective-based Reading
 Views to Consider:
 1. User Perspective
-```
+
 □ Functionality is clear
 □ Quality requirements are specified
 □ User needs are met
-```
+
 
 2. Architect Perspective
-```
+
 □ Technical feasibility
 □ System constraints
 □ Integration requirements
-```
+
 
 3. Tester Perspective
-```
+
 □ Testability of requirements
 □ Clear acceptance criteria
 □ Measurable outcomes
-```
+
 
 #### 3. Prototyping
 Benefits:
@@ -607,13 +607,13 @@ Benefits:
 - Professional standards
 
 #### Ethical Decision Framework
-```
+
 1. Identify affected parties
 2. Assess potential impacts
 3. Consider public perception
 4. Evaluate professional standards
 5. Document decisions and rationale
-```
+
 # Requirements Management & Agile Development Study Guide
 
 ## Table of Contents
